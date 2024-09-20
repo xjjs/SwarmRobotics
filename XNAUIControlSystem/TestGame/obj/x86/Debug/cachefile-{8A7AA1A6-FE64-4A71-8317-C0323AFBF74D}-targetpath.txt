@@ -1,0 +1,6 @@
+Content\DefaultFont.xnb
+Content\DefaultHeading.xnb
+Content\Verdana.xnb
+Content\Skin.xnb
+Content\mothership.xnb
+Content\Skin.xml

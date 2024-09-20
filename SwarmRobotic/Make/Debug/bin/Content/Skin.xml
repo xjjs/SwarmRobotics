@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GucSkin>
+	<TextFont
+		Font = "textFont"
+	/>
+  <White1x1
+		Texture = "1,1,1,1"
+	/>
+  <BorderBackground
+		Texture = "77,67,15,15"
+	/>
+	<CheckBoxNormal
+		Normal = "1,27,15,15"
+		Hover = "17,27,15,15"
+		Press = "33,27,15,15"
+	/>
+	<CheckBoxChecked
+		Normal = "1,43,15,15"
+		Hover = "17,43,15,15"
+		Press = "33,43,15,15"
+	/>
+	<RadioBoxNormal
+		Normal = "1,59,15,15"
+		Hover = "17,59,15,15"
+		Press = "33,59,15,15"
+	/>
+	<RadioBoxChecked
+		Normal = "1,75,15,15"
+		Hover = "17,75,15,15"
+		Press = "33,75,15,15"
+	/>
+	<UpArrow
+		Normal = "84,23,17,17"
+		Hover = "102,23,17,17"
+		Press = "120,23,17,17"
+	/>
+	<DownArrow
+		Normal = "84,5,17,17"
+		Hover = "102,5,17,17"
+		Press = "120,5,17,17"
+	/>
+	<Button
+		Normal = "66,23,17,10"
+		Hover = "66,34,17,10"
+		Press = "66,45,17,10"
+	/>
+	<TextBox
+		Texture = "84,41,25,25"
+	/>
+  <TextBoxMargin
+		Texture = "2,2,2,2"
+	/>
+</GucSkin>

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6FCFD3D8-32B8-4FA0-AC94-D625180ED162}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UtilityProject</RootNamespace>
+    <AssemblyName>UtilityProject</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Make\Debug\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <IntermediateOutputPath>..\Make\Debug\obj\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Make\Release\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <IntermediateOutputPath>..\Make\Release\obj\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Funcs\CEC05_Utilities.cs" />
+    <Compile Include="Funcs\CEC_Funcs.cs" />
+    <Compile Include="Funcs\Cil_Funcs.cs" />
+    <Compile Include="FixSizedQueue.cs" />
+    <Compile Include="Funcs\EvaluateFunction.cs" />
+    <Compile Include="KDTree\KDTree.cs" />
+    <Compile Include="KDTree\KDTree_Utility.cs" />
+    <Compile Include="KDTree\MultiDimRange.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PSO\PSO.cs" />
+    <Compile Include="PSO\PSONeighbourTopologies.cs" />
+    <Compile Include="SortedDistanceList.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Funcs\CEC_data\ackley_func_data.txt" />
+    <Content Include="Funcs\CEC_data\ackley_M_D10.txt" />
+    <Content Include="Funcs\CEC_data\ackley_M_D2.txt" />
+    <Content Include="Funcs\CEC_data\ackley_M_D30.txt" />
+    <Content Include="Funcs\CEC_data\ackley_M_D50.txt" />
+    <Content Include="Funcs\CEC_data\EF8F2_func_data.txt" />
+    <Content Include="Funcs\CEC_data\elliptic_M_D10.txt" />
+    <Content Include="Funcs\CEC_data\elliptic_M_D2.txt" />
+    <Content Include="Funcs\CEC_data\elliptic_M_D30.txt" />
+    <Content Include="Funcs\CEC_data\elliptic_M_D50.txt" />
+    <Content Include="Funcs\CEC_data\E_ScafferF6_func_data.txt" />
+    <Content Include="Funcs\CEC_data\E_ScafferF6_M_D10.txt" />
+    <Content Include="Funcs\CEC_data\E_ScafferF6_M_D2.txt" />
+    <Content Include="Funcs\CEC_data\E_ScafferF6_M_D30.txt" />
+    <Content Include="Funcs\CEC_data\E_ScafferF6_M_D50.txt" />
+    <Content Include="Funcs\CEC_data\griewank_func_data.txt" />
+    <Content Include="Funcs\CEC_data\griewank_M_D10.txt" />
+    <Content Include="Funcs\CEC_data\griewank_M_D2.txt" />
+    <Content Include="Funcs\CEC_data\griewank_M_D30.txt" />
+    <Content Include="Funcs\CEC_data\griewank_M_D50.txt" />
+    <Content Include="Funcs\CEC_data\high_cond_elliptic_rot_data.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func1_data.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func1_M_D10.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func1_M_D2.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func1_M_D30.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func1_M_D50.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func2_data.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func2_M_D10.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func2_M_D2.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func2_M_D30.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func2_M_D50.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func3_data.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func3_HM_D10.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func3_HM_D2.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func3_HM_D30.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func3_HM_D50.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func3_M_D10.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func3_M_D2.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func3_M_D30.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func3_M_D50.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func4_data.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func4_M_D10.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func4_M_D2.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func4_M_D30.txt" />
+    <Content Include="Funcs\CEC_data\hybrid_func4_M_D50.txt" />
+    <Content Include="Funcs\CEC_data\rastrigin_func_data.txt" />
+    <Content Include="Funcs\CEC_data\rastrigin_M_D10.txt" />
+    <Content Include="Funcs\CEC_data\rastrigin_M_D2.txt" />
+    <Content Include="Funcs\CEC_data\rastrigin_M_D30.txt" />
+    <Content Include="Funcs\CEC_data\rastrigin_M_D50.txt" />
+    <Content Include="Funcs\CEC_data\rosenbrock_func_data.txt" />
+    <Content Include="Funcs\CEC_data\schwefel_102_data.txt" />
+    <Content Include="Funcs\CEC_data\schwefel_206_data.txt" />
+    <Content Include="Funcs\CEC_data\schwefel_213_data.txt" />
+    <Content Include="Funcs\CEC_data\sphere_func_data.txt" />
+    <Content Include="Funcs\CEC_data\weierstrass_data.txt" />
+    <Content Include="Funcs\CEC_data\weierstrass_M_D10.txt" />
+    <Content Include="Funcs\CEC_data\weierstrass_M_D2.txt" />
+    <Content Include="Funcs\CEC_data\weierstrass_M_D30.txt" />
+    <Content Include="Funcs\CEC_data\weierstrass_M_D50.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

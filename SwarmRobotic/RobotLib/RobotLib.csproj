@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{1BB21A2B-70D8-4C42-82CA-658DD0EEFFD7}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RobotLib</RootNamespace>
+    <AssemblyName>RobotLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>e5a33143-3975-46d2-a639-c2a0091279cc</XnaCrossPlatformGroupID>
+    <XnaOutputType>Library</XnaOutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Make\Debug\bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+    <IntermediateOutputPath>..\Make\Debug\obj\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Make\Release\bin\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+    <IntermediateOutputPath>..\Make\Release\obj\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Emgu.CV">
+      <HintPath>..\..\..\..\..\..\..\Emgu\emgucv-windows-universal-gpu 2.4.9.1847\bin\Emgu.CV.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.UI">
+      <HintPath>..\..\..\..\..\..\..\Emgu\emgucv-windows-universal-gpu 2.4.9.1847\bin\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.Util">
+      <HintPath>..\..\..\..\..\..\..\Emgu\emgucv-windows-universal-gpu 2.4.9.1847\bin\Emgu.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FitnessProblem\Algorithms\AdaPSOFitness.cs" />
+    <Compile Include="FitnessProblem\Algorithms\ADataFitness.cs" />
+    <Compile Include="FitnessProblem\Algorithms\AFormationFitness.cs" />
+    <Compile Include="FitnessProblem\Algorithms\AIGESFitness.cs" />
+    <Compile Include="FitnessProblem\Algorithms\AIntermittent.cs" />
+    <Compile Include="FitnessProblem\Algorithms\ALevyFlightFitness.cs" />
+    <Compile Include="FitnessProblem\Algorithms\AmlpFitness.cs" />
+    <Compile Include="FitnessProblem\Algorithms\APGESFitness.cs" />
+    <Compile Include="FitnessProblem\Algorithms\ARandomFitness.cs" />
+    <Compile Include="FitnessProblem\Algorithms\ASinglySearch.cs" />
+    <Compile Include="FitnessProblem\Algorithms\ASLFitness.cs" />
+    <Compile Include="FitnessProblem\Algorithms\ER.cs" />
+    <Compile Include="FitnessProblem\Algorithms\EvolveRobotic.cs" />
+    <Compile Include="FitnessProblem\Algorithms\MLP.cs" />
+    <Compile Include="FitnessProblem\Algorithms\MLP0.cs" />
+    <Compile Include="FitnessProblem\Algorithms\MLP1.cs" />
+    <Compile Include="FitnessProblem\Algorithms\MLP2.cs" />
+    <Compile Include="FitnessProblem\Algorithms\MLP3.cs" />
+    <Compile Include="FitnessProblem\Algorithms\MLP4.cs" />
+    <Compile Include="FitnessProblem\Algorithms\MLP5.cs" />
+    <Compile Include="FitnessProblem\Algorithms\MLP6.cs" />
+    <Compile Include="FitnessProblem\Algorithms\MLP7.cs" />
+    <Compile Include="FitnessProblem\Algorithms\MLP8.cs" />
+    <Compile Include="FitnessProblem\Algorithms\MLP9.cs" />
+    <Compile Include="FitnessProblem\Algorithms\MLPX.cs" />
+    <Compile Include="FitnessProblem\Algorithms\tristatePFSMFitness.cs" />
+    <Compile Include="FitnessProblem\HistoryItem.cs" />
+    <Compile Include="Core\RunState.cs" />
+    <Compile Include="FitnessProblem\Algorithms\AHybridFitness.cs" />
+    <Compile Include="FitnessProblem\Algorithms\APSOEFitness.cs" />
+    <Compile Include="FitnessProblem\Algorithms\ADSFitness.cs" />
+    <Compile Include="FitnessProblem\Algorithms\ARPSOFitness.cs" />
+    <Compile Include="FitnessProblem\Algorithms\AUAVFitness.cs" />
+    <Compile Include="FitnessProblem\Problems\PMinimal.cs" />
+    <Compile Include="FitnessProblem\Problems\PMinimalDis.cs" />
+    <Compile Include="FitnessProblem\Problems\SEnergy.cs" />
+    <Compile Include="FitnessProblem\AFitness.cs" />
+    <Compile Include="FitnessProblem\PFitness.cs" />
+    <Compile Include="FitnessProblem\RFitness.cs" />
+    <Compile Include="FitnessProblem\SFitness.cs" />
+    <Compile Include="FitnessProblem\Algorithms\AGESFitness.cs" />
+    <Compile Include="FitnessProblem\Algorithms\APSOMFitness.cs" />
+    <Compile Include="FitnessProblem\Problems\PMinimalMap.cs" />
+    <Compile Include="Obstacles\FitnessTarget.cs" />
+    <Compile Include="Obstacles\Interference.cs" />
+    <Compile Include="Obstacles\MultiObstacle.cs" />
+    <Compile Include="TargetTrackProblem\ATetrahedron.cs" />
+    <Compile Include="Core\ParameterAttribute.cs" />
+    <Compile Include="Core\RoboticProblem.cs" />
+    <Compile Include="Environment\NeighbourData.cs" />
+    <Compile Include="Obstacles\EnergyTarget.cs" />
+    <Compile Include="Obstacles\MovingObstacle.cs" />
+    <Compile Include="FitnessProblem\Problems\REnergy.cs" />
+    <Compile Include="TargetTrackProblem\RTrack.cs" />
+    <Compile Include="Sensors\PositionSensor.cs" />
+    <Compile Include="FitnessProblem\Problems\PEnergy.cs" />
+    <Compile Include="TargetTrackProblem\PTargetTracking.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TargetTrackProblem\AForceTrack.cs" />
+    <Compile Include="TargetTrackProblem\ALJForce.cs" />
+    <Compile Include="TargetTrackProblem\ANewtonForce.cs" />
+    <Compile Include="TargetTrackProblem\ASpringForce.cs" />
+    <Compile Include="Core\Experiment.cs" />
+    <Compile Include="Core\Interfaces.cs" />
+    <Compile Include="FitnessProblem\FitnessMaps.cs" />
+    <Compile Include="Core\RobotBase.cs" />
+    <Compile Include="Core\RoboticAlgorithm.cs" />
+    <Compile Include="Core\RoboticEnvironment.cs" />
+    <Compile Include="Environment\ECompare.cs" />
+    <Compile Include="Environment\EKDTree.cs" />
+    <Compile Include="Environment\ESimple.cs" />
+    <Compile Include="Sensors\MapObjectSensor.cs" />
+    <Compile Include="Sensors\Sensors.cs" />
+    <Compile Include="TargetTrackProblem\STrack.cs" />
+    <Compile Include="TestProblem\ATest.cs" />
+    <Compile Include="TestProblem\PTest.cs" />
+    <Compile Include="Core\Utility.cs" />
+    <Compile Include="Obstacles\Obstacle.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ParallelTest\ParallelTest.csproj">
+      <Project>{7680CA8F-0FDF-447D-B6AC-A747B91B2EBE}</Project>
+      <Name>ParallelTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UtilityProject\UtilityProject.csproj">
+      <Project>{6FCFD3D8-32B8-4FA0-AC94-D625180ED162}</Project>
+      <Name>UtilityProject</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

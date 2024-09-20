@@ -1,0 +1,26 @@
+C:\Users\Jie\Desktop\Study\SwarmRobotic\ParallelTest\bin\Debug\ParallelTest.dll
+C:\Users\Jie\Desktop\Study\SwarmRobotic\ParallelTest\bin\Debug\ParallelTest.pdb
+C:\Users\Jie\Desktop\Study\SwarmRobotic\ParallelTest\obj\Debug\ParallelTest.frmTest.resources
+C:\Users\Jie\Desktop\Study\SwarmRobotic\ParallelTest\obj\Debug\ParallelTest.csproj.GenerateResource.Cache
+C:\Users\Jie\Desktop\Study\SwarmRobotic\ParallelTest\obj\Debug\ParallelTest.dll
+C:\Users\Jie\Desktop\Study\SwarmRobotic\ParallelTest\obj\Debug\ParallelTest.pdb
+C:\Users\Jie\Desktop\Platform\SwarmRobotic\ParallelTest\bin\Debug\ParallelTest.dll
+C:\Users\Jie\Desktop\Platform\SwarmRobotic\ParallelTest\bin\Debug\ParallelTest.pdb
+C:\Users\Jie\Desktop\Platform\SwarmRobotic\ParallelTest\obj\Debug\ParallelTest.frmTest.resources
+C:\Users\Jie\Desktop\Platform\SwarmRobotic\ParallelTest\obj\Debug\ParallelTest.dll
+C:\Users\Jie\Desktop\Platform\SwarmRobotic\ParallelTest\obj\Debug\ParallelTest.pdb
+C:\Users\Jie\Desktop\Platform\SwarmRobotic\ParallelTest\obj\Debug\ParallelTest.csproj.GenerateResource.Cache
+C:\Users\Jie\Desktop\Platform\SwarmRobotic\ParallelTest\obj\Debug\ParallelTest.csprojResolveAssemblyReference.cache
+C:\Users\Jie\Desktop\Real\Platform\SwarmRobotic\ParallelTest\bin\Debug\ParallelTest.dll
+C:\Users\Jie\Desktop\Real\Platform\SwarmRobotic\ParallelTest\bin\Debug\ParallelTest.pdb
+C:\Users\Jie\Desktop\Real\Platform\SwarmRobotic\ParallelTest\obj\Debug\ParallelTest.frmTest.resources
+C:\Users\Jie\Desktop\Real\Platform\SwarmRobotic\ParallelTest\obj\Debug\ParallelTest.csproj.GenerateResource.Cache
+C:\Users\Jie\Desktop\Real\Platform\SwarmRobotic\ParallelTest\obj\Debug\ParallelTest.dll
+C:\Users\Jie\Desktop\Real\Platform\SwarmRobotic\ParallelTest\obj\Debug\ParallelTest.pdb
+C:\Users\Jie\Desktop\Real\Platform\SwarmRobotic\ParallelTest\obj\Debug\ParallelTest.csprojResolveAssemblyReference.cache
+C:\Users\Jie\Desktop\Beauty\0 Real\Platform\SwarmRobotic\ParallelTest\bin\Debug\ParallelTest.dll
+C:\Users\Jie\Desktop\Beauty\0 Real\Platform\SwarmRobotic\ParallelTest\bin\Debug\ParallelTest.pdb
+C:\Users\Jie\Desktop\Beauty\0 Real\Platform\SwarmRobotic\ParallelTest\obj\Debug\ParallelTest.frmTest.resources
+C:\Users\Jie\Desktop\Beauty\0 Real\Platform\SwarmRobotic\ParallelTest\obj\Debug\ParallelTest.dll
+C:\Users\Jie\Desktop\Beauty\0 Real\Platform\SwarmRobotic\ParallelTest\obj\Debug\ParallelTest.pdb
+C:\Users\Jie\Desktop\Beauty\0 Real\Platform\SwarmRobotic\ParallelTest\obj\Debug\ParallelTest.csproj.GenerateResource.Cache

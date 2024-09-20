@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GucUISystem", "GucUISystem.csproj", "{14E1534F-E2ED-41F9-A1C8-441B8C25A2EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGame", "TestGame\TestGame.csproj", "{129746B2-E73B-4CB0-8F85-7761D13C3C57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGameContent", "TestGame\Content\TestGameContent.contentproj", "{8A7AA1A6-FE64-4A71-8317-C0323AFBF74D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14E1534F-E2ED-41F9-A1C8-441B8C25A2EF}.Debug|x86.ActiveCfg = Debug|x86
+		{14E1534F-E2ED-41F9-A1C8-441B8C25A2EF}.Debug|x86.Build.0 = Debug|x86
+		{14E1534F-E2ED-41F9-A1C8-441B8C25A2EF}.Release|x86.ActiveCfg = Release|x86
+		{14E1534F-E2ED-41F9-A1C8-441B8C25A2EF}.Release|x86.Build.0 = Release|x86
+		{129746B2-E73B-4CB0-8F85-7761D13C3C57}.Debug|x86.ActiveCfg = Debug|x86
+		{129746B2-E73B-4CB0-8F85-7761D13C3C57}.Debug|x86.Build.0 = Debug|x86
+		{129746B2-E73B-4CB0-8F85-7761D13C3C57}.Release|x86.ActiveCfg = Release|x86
+		{129746B2-E73B-4CB0-8F85-7761D13C3C57}.Release|x86.Build.0 = Release|x86
+		{8A7AA1A6-FE64-4A71-8317-C0323AFBF74D}.Debug|x86.ActiveCfg = Debug|x86
+		{8A7AA1A6-FE64-4A71-8317-C0323AFBF74D}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

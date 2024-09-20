@@ -1,0 +1,5 @@
+D:\我的文档\Desktop\XNA UI Sample\ControlUISystem\TestGame\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\zzy\Documents\Visual Studio 2010\Projects\XNAUIControlSystem\TestGame\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jie\Desktop\Study\XNAUIControlSystem\TestGame\Content\obj\x86\Debug\TestGameContent.contentprojResolveAssemblyReference.cache
+C:\Users\Jie\Desktop\Platform\XNAUIControlSystem\TestGame\Content\obj\x86\Debug\TestGameContent.contentprojResolveAssemblyReference.cache
+C:\Users\Jie\Desktop\XNAUIControlSystem\TestGame\Content\obj\x86\Debug\TestGameContent.contentprojResolveAssemblyReference.cache

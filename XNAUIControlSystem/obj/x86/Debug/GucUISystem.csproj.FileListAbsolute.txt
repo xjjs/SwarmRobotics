@@ -1,0 +1,30 @@
+C:\Users\Jie\Desktop\Study\XNAUIControlSystem\bin\x86\Debug\GucUISystem.dll
+C:\Users\Jie\Desktop\Study\XNAUIControlSystem\bin\x86\Debug\GucUISystem.pdb
+C:\Users\Jie\Desktop\Study\XNAUIControlSystem\obj\x86\Debug\GucUISystem.csprojResolveAssemblyReference.cache
+C:\Users\Jie\Desktop\Study\XNAUIControlSystem\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Jie\Desktop\Study\XNAUIControlSystem\obj\x86\Debug\GucUISystem.dll
+C:\Users\Jie\Desktop\Study\XNAUIControlSystem\obj\x86\Debug\GucUISystem.pdb
+C:\Users\Jie\Desktop\Platform\XNAUIControlSystem\bin\x86\Debug\GucUISystem.dll
+C:\Users\Jie\Desktop\Platform\XNAUIControlSystem\bin\x86\Debug\GucUISystem.pdb
+C:\Users\Jie\Desktop\Platform\XNAUIControlSystem\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Jie\Desktop\Platform\XNAUIControlSystem\obj\x86\Debug\GucUISystem.dll
+C:\Users\Jie\Desktop\Platform\XNAUIControlSystem\obj\x86\Debug\GucUISystem.pdb
+C:\Users\Jie\Desktop\Platform\XNAUIControlSystem\obj\x86\Debug\GucUISystem.csprojResolveAssemblyReference.cache
+C:\Users\Jie\Desktop\XNAUIControlSystem\bin\x86\Debug\GucUISystem.dll
+C:\Users\Jie\Desktop\XNAUIControlSystem\bin\x86\Debug\GucUISystem.pdb
+C:\Users\Jie\Desktop\XNAUIControlSystem\obj\x86\Debug\GucUISystem.csprojResolveAssemblyReference.cache
+C:\Users\Jie\Desktop\XNAUIControlSystem\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Jie\Desktop\XNAUIControlSystem\obj\x86\Debug\GucUISystem.dll
+C:\Users\Jie\Desktop\XNAUIControlSystem\obj\x86\Debug\GucUISystem.pdb
+C:\Users\Jie\Desktop\Real\Platform\XNAUIControlSystem\bin\x86\Debug\GucUISystem.dll
+C:\Users\Jie\Desktop\Real\Platform\XNAUIControlSystem\bin\x86\Debug\GucUISystem.pdb
+C:\Users\Jie\Desktop\Real\Platform\XNAUIControlSystem\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Jie\Desktop\Real\Platform\XNAUIControlSystem\obj\x86\Debug\GucUISystem.dll
+C:\Users\Jie\Desktop\Real\Platform\XNAUIControlSystem\obj\x86\Debug\GucUISystem.pdb
+C:\Users\Jie\Desktop\Real\Platform\XNAUIControlSystem\obj\x86\Debug\GucUISystem.csprojResolveAssemblyReference.cache
+C:\Users\Jie\Desktop\Beauty\0 Real\Platform\XNAUIControlSystem\bin\x86\Debug\GucUISystem.dll
+C:\Users\Jie\Desktop\Beauty\0 Real\Platform\XNAUIControlSystem\bin\x86\Debug\GucUISystem.pdb
+C:\Users\Jie\Desktop\Beauty\0 Real\Platform\XNAUIControlSystem\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Jie\Desktop\Beauty\0 Real\Platform\XNAUIControlSystem\obj\x86\Debug\GucUISystem.dll
+C:\Users\Jie\Desktop\Beauty\0 Real\Platform\XNAUIControlSystem\obj\x86\Debug\GucUISystem.pdb
+C:\Users\Jie\Desktop\Beauty\0 Real\Platform\XNAUIControlSystem\obj\x86\Debug\GucUISystem.csprojResolveAssemblyReference.cache
